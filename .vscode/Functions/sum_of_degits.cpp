@@ -10,7 +10,7 @@ int main(){
 int sum_digits(int num){
     
     int temp , sum = 0;
-    while(num!=0){
+    while(num){
         temp = num%10;
         num = num/10;
         sum = sum+temp;
