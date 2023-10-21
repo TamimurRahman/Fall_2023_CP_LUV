@@ -27,9 +27,7 @@ int main()
             dec = dec + digit_store * pow(2, (n - 1) - i);
             i--;
         }
-        if (dec > 0)
-        {
-            cout << dec << endl;
-        }
+
+        cout << dec << endl;
     }
 }
