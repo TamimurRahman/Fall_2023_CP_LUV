@@ -24,5 +24,5 @@ void convert_upper(string str)
             str_2 = str_2 + upper_str;
         }
     }
-    cout << str_2 << endl;
+    cout << str_2 ;
 }
